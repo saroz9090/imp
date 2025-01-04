@@ -34,7 +34,7 @@ body {
 #Wrapper {
 	width: 1240px;
 	margin: 0px auto;
-	overflow: hidden;
+	overflow: visible;
 }
 .layout-full-width {
 	padding: 0;
