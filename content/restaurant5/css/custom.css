@@ -1,0 +1,88 @@
+.social-icons {
+    display: flex;
+    justify-content: center; /* Center the icons */
+    gap: 15px; /* Consistent gap between icons */
+    margin-top: 10px;
+}
+
+.social-link {
+    color: #999; /* Default color for all icons */
+    font-size: 20px; /* Icon size */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* SVG Icons Styling */
+.social-link svg {
+    width: 20px; /* Consistent size for SVG icons */
+    height: 20px;
+    fill: #999; /* Default color for SVG icons */
+    transition: fill 0.3s ease; /* Smooth color transition for hover */
+}
+
+/* Hover Effect */
+.social-link:hover {
+    color: #d16832; /* Hover color for font icons */
+}
+
+.social-link:hover svg {
+    fill: #d16832; /* Hover color for SVG icons */
+}
+
+/* Specific Fix for Facebook Icon Gap */
+.social-link:first-child {
+    margin-left: 0; /* Reduce extra margin for Facebook icon */
+}
+
+.book-table {
+    color: #999; /* Default text color */
+    margin: 0 0 3px;
+    padding: 10px 0 0;
+}
+
+.book-table-link {
+    color: #999; /* Default color for the link */
+    text-decoration: none; /* No underline by default */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.book-table-link:hover {
+    color: #d16832; /* Hover color */
+    text-decoration: underline; /* Optional underline on hover */
+}
+
+/* Ensures the container that holds both buttons uses flexbox */
+#rev_slider_1_1 {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    gap: 20px; /* Adds gap between the buttons */
+}
+
+/* Style for the individual buttons */
+#slider-1-slide-1-layer-1,
+#slider-1-slide-1-layer-2 {
+    border-radius: 10px; /* Slightly rounded corners */
+    padding: 15px 30px; /* Adjust padding to keep the button shape */
+    font-family: Roboto; /* Font style */
+}
+
+/* Specific background and hover effects for the buttons */
+#slider-1-slide-1-layer-1 {
+    background-color: #d16832;
+}
+
+#slider-1-slide-1-layer-2 {
+    background-color: #fff;
+    color: #1f2a2e;
+}
+
+#slider-1-slide-1-layer-1:hover {
+    background-color: #b15221;
+}
+
+#slider-1-slide-1-layer-2:hover {
+    background-color: #e8eff1;
+    color: #1f2a2e;
+}
+
+
